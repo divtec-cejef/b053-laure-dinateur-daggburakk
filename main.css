@@ -179,36 +179,34 @@ footer ul li img :hover {
     text-align: center;
 }
 
-.realise{
-    display: flex;
-    list-style-type: none;
+.realise ul{
     margin:0;
     padding:0;
+}
+
+.realise{
+    display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
     justify-content: space-between;
-    align-items: flex-start;
 }
-
 .realise li{
-    margin: 0;
-    padding: 1rem 2.5%;
-    flex-basis: 50%;
-    flex-grow: 2;
+    display: inline-block;
+    list-style-type: none;
+    width: 45%;
+    margin: 2.5%;
+    vertical-align: top;
 
 }
-
 .realise li a{
     color: #011627;
 }
-
 .realise figure{
     margin: 0;
     background-color: #e7e9eb;
-
 }
 
 .realise figcaption{
     padding: 10px;
     font-size: 1rem;
+    overflow: visible;
 }
