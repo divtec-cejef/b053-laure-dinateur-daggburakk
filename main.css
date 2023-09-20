@@ -40,6 +40,7 @@ a{
     text-decoration: none;
 }
 
+/*HEADER*/
 header {
     text-align: center;
     background-color: #011627;
@@ -95,7 +96,6 @@ header nav li {
     font-size:1.5rem ;
     padding-bottom: -.75rem;
 }
-
 
 
 .sec2 ul {
@@ -169,7 +169,7 @@ footer ul li img :hover {
 }
 
 .img {
-    display: block;
+    display: flex;
     max-width: 150px;
     margin: 0 auto 30px;
     border-radius: 50%;
