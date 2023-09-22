@@ -7,4 +7,46 @@
     .img{
         float: left;
     }
+    .sec1 {
+        display:inline-block;
+        vertical-align: top;
+        width:50%;
+    }
+    .sec2{
+        display: inline-block;
+        vertical-align: top;
+        width: 40%;
+        margin-left: 10%;
+    }
 }
+
+@media only screen and (min-width: 660px){
+
+    header {
+        border-bottom: 5px solid #2ec4b6;
+    }
+    header .logo {
+        display: inline-block;
+        vertical-align: top;
+        text-align: left;
+        width: 42%;
+        margin-left: 5%;
+    }
+
+    header .logo .nom {
+        font-size: 2.5rem;
+    }
+
+    header .logo .metier {
+        margin-bottom: 20px;
+    }
+
+    header nav{
+        width: 48%;
+        margin-right: 5%;
+        font-size: 1.125rem;
+    }
+
+}
+
+
