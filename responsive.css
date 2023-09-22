@@ -1,12 +1,10 @@
-@media only screen and (min-width: 480px) {
+@media only screen and (min-width: 480px){
 
-    .realise li {
-        flex-basis: calc(100% / 3);
+    .realise li{
+        flex-basis: calc(100%/3);
         flex-grow: 3;
     }
-}
-.sec1, .sec2{
-    display:inline-block;
-    vertical-align:top;
-    width:50%;
+    .img{
+        float: left;
+    }
 }
