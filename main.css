@@ -1,3 +1,4 @@
+/*General*/
 * {
     box-sizing: border-box;
 }
@@ -71,7 +72,7 @@ header {
     color: red;
     font-family: 'Open Sans', sans-serif; ;
 }
-
+/*Nav*/
 header nav {
     padding: 10px 0;
     margin: 20px 0 0;
@@ -97,13 +98,14 @@ header nav li {
     padding-bottom: -.75rem;
 }
 
-
+/*Main*/
 .sec2 ul {
     list-style-type: none;
 }
 .sec2 a{
     color: red;
 }
+/*Footer*/
 .phone {
     background-image: url("/_sources/images/phone.png");
     background-repeat: no-repeat;
@@ -167,7 +169,7 @@ footer ul li img :hover {
     filter: grayscale(0);
     transition: filter 500ms linear;
 }
-
+/*Page Informations*/
 .img {
     display: flex;
     max-width: 150px;
@@ -178,7 +180,7 @@ footer ul li img :hover {
 .h1inform {
     text-align: center;
 }
-
+/*Page Index*/
 .realise ul{
     margin:0;
     padding:0;
